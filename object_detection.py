@@ -3,7 +3,7 @@ import numpy as np
 
 
 class ObjectDetection:
-    def __init__(self, weights_path="dnn_model/yolov7.weights", cfg_path="dnn_model/yolov4.cfg"):
+    def __init__(self, weights_path="dnn_model/yolov7.weights", cfg_path="dnn_model/yolov7.cfg"):
         print("Loading Object Detection")
         # print("Running opencv dnn with YOLOv7")
         self.nmsThreshold = 0.4
